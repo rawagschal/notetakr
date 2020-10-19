@@ -4,13 +4,16 @@
 A notetaking app built with an express.js back end.
 
 ## Installation and Usage
-check back later for deployed application
+click [here](https://arcane-wave-64105.herokuapp.com/) to go to the Note Taker and play with the basic functionality.
+
+If you don't want to do that, see the below screenshot for what the app looks like.
+<img src='Screenshot.png' alt='Note Taker in action'/>
+
+### Note: 
+This application is still in development.
 
 ## Support
 For questions, concerns, comments, please [email me](mailto:rawagschal@gmail.com)
-
-## Authors
-Made with 💖 by Rachel Wagschal
 
 ## License
 [MIT](https://opensource.org/licenses/MIT)
