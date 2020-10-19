@@ -7,7 +7,7 @@ A notetaking app built with an express.js back end.
 click [here](https://arcane-wave-64105.herokuapp.com/) to go to the Note Taker and play with the basic functionality.
 
 If you don't want to do that, see the below screenshot for what the app looks like.
-<img src='Screenshot.png' alt='Note Taker in action'/>
+<img src='./public/assets/images/Screenshot.png' alt='Note Taker in action'/>
 
 **Note:** 
 This application is still in development. Check the issues tab to see what I'm working on.
