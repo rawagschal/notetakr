@@ -1,14 +1,27 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Description A notetaking app built with an express.js back end.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Rachel Wagschal",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4"
-  }
+    "express": "^4.17.1",
+    "uuid": "^8.3.1"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rawagschal/notetakr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rawagschal/notetakr/issues"
+  },
+  "homepage": "https://github.com/rawagschal/notetakr#readme"
 }
