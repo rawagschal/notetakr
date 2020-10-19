@@ -25,6 +25,7 @@ const hide = (elem) => {
 // activeNote is used to keep track of the note in the textarea
 let activeNote = {};
 
+// get all notes from db
 const getNotes = () =>
   fetch('/api/notes', {
     method: 'GET',
@@ -50,6 +51,7 @@ const deleteNote = (id) =>
     },
   });
 
+// display the active note, otherwise display empty note
 const renderActiveNote = () => {
   hide(saveNoteBtn);
 
@@ -106,6 +108,7 @@ const handleNewNoteView = (e) => {
   renderActiveNote();
 };
 
+// only show save button if there is text in the note/title
 const handleRenderSaveBtn = () => {
   if (!noteTitle.value.trim() || !noteText.value.trim()) {
     hide(saveNoteBtn);
